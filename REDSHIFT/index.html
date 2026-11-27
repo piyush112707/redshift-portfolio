@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piyush Kumayu — REDSHIFT</title>
+<meta name="description" content="Piyush Kumayu — Developer, Designer, Creator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="ld-ring"></div><p>INITIALIZING REDSHIFT</p><div class="ld-bar"><i></i></div></div>
+<canvas id="bg"></canvas><div class="grid"></div>
+
+<header id="nav">
+  <a href="#home" class="logo">✦ PIYUSH</a>
+  <nav id="links">
+    <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#projects">PROJECTS</a>
+    <a href="#edits">EDITS</a><a href="#achievements">ACHIEVEMENTS</a><a href="#contact">CONTACT</a>
+  </nav>
+  <a href="#contact" class="btn ghost talk">LET'S TALK →</a>
+  <button id="burger" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="tag">DEVELOPER / DESIGNER / CREATOR</p>
+    <h1 class="glitch">PIYUSH<br>KUMAYU<b>.</b></h1>
+    <p class="quote">Building ideas beyond limits,<br>one line at a time.</p>
+    <div class="cta"><a href="#about" class="btn red">EXPLORE MY WORLD →</a><a id="resume" href="#" target="_blank" class="btn ghost">VIEW RESUME ↓</a></div>
+    <ul class="hud"><li>SYSTEM: <em>ONLINE</em></li><li>CREATIVE ENGINEER</li><li>LOCATION: EARTH</li><li>PROFILE: PIYUSH.K</li><li>STATUS: <em>BUILDING</em></li></ul>
+  </div>
+  <div class="scroll">SCROLL</div>
+</section>
+
+<section id="about" class="sec">
+  <div class="about-grid">
+    <div class="rv">
+      <h2>A CURIOUS MIND.<br>BUILDING FOR <span>TOMORROW.</span></h2>
+      <p>I'm Piyush Kumayu, a B.Tech Computer Science student at Mahakal Institute of Technology. I love coding, designing, exploring new technologies and transforming ideas into experiences.</p>
+      <p>From building applications to experimenting with UI/UX, 3D and creative editing, I enjoy exploring the intersection of technology and creativity. I believe the best ideas are the ones that haven't been built yet.</p>
+      <div class="info" id="info"></div>
+    </div>
+    <div class="portrait rv"><img src="assets/myphoto.png" alt="Piyush Kumayu" onerror="this.remove()"><div class="ph"><i class="c a"></i><i class="c b"></i><span>ID: PIYUSH.K // ACTIVE</span></div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2 class="rv">TOOLS OF<br>MY <span>CRAFT.</span></h2>
+  <div class="chips rv" id="skills-list"></div>
+  <div class="soft rv" id="soft-list"></div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 class="rv">IDEAS I<br>BROUGHT TO <span>LIFE.</span></h2>
+  <p class="sub rv">Some ideas are better discovered than explained.</p>
+  <div class="projects" id="project-list"></div>
+</section>
+
+<section id="edits" class="sec">
+  <h2 class="rv">FRAME BY FRAME.<br>MOTION WITH <span>PURPOSE.</span></h2>
+  <p class="sub rv">Stories are not just seen. They are felt.</p>
+  <div class="edits" id="edit-list"></div>
+</section>
+
+<section id="achievements" class="sec">
+  <h2 class="rv">MILESTONES<br>THAT <span>MATTER.</span></h2>
+  <div class="timeline" id="ach-list"></div>
+</section>
+
+<section id="beyond" class="sec">
+  <h2 class="rv">WHEN THE SYSTEM<br>GOES <span>OFFLINE.</span></h2>
+  <div class="hobbies" id="hobby-list"></div>
+</section>
+
+<section id="contact" class="sec contact">
+  <h2 class="rv">THE NEXT IDEA<br>STARTS <span>HERE.</span></h2>
+  <p class="sub rv">Got an idea? Let's build something worth remembering.</p>
+  <div class="cta c rv" id="social-list"></div>
+</section>
+</main>
+
+<footer><div><strong>PIYUSH KUMAYU</strong><small>DREAM. BUILD. INNOVATE.</small></div><button id="top" aria-label="Back to top">↑</button></footer>
+
+<div id="modal"><div class="mbox"><button id="mclose">✕</button><div id="mbody"></div></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
